@@ -10,7 +10,6 @@ body {
 	margin: 0;
 	box-sizing: border-box; 
 }
-
 *,
 *:after,
 *:before {
@@ -75,7 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__announc a {
 	display: block;
-	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
 	font-weight: 700;
@@ -147,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .bringing__title {
-	width: 100%
+	width: 100%;
 	max-width: 600px;
 	margin: 0 auto 20px;
 }
@@ -417,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 0 10px;
 	}
 	.slick-dots button {
-		font-size: 0px;
+		font-size: 0;
 		width: 8px;
 		height: 8px;
 		border-radius: 50%;
